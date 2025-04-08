@@ -4,7 +4,14 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 
 const firebaseConfig = {
-  // your config
+  apiKey: "AIzaSyCtewz1oaQNZfLq89putYOoImX0LxpP0-0",
+  authDomain: "videocallapp-dd4e2.firebaseapp.com",
+  databaseURL: "https://videocallapp-dd4e2-default-rtdb.firebaseio.com",
+  projectId: "videocallapp-dd4e2",
+  storageBucket: "videocallapp-dd4e2.firebasestorage.app",
+  messagingSenderId: "644058814313",
+  appId: "1:644058814313:web:97a685e9e9990f24dbcff8",
+  measurementId: "G-9VTLLKMD22"
 };
 
 if (!firebase.apps.length) {
